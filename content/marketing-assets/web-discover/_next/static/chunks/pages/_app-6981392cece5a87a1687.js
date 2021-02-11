@@ -4183,7 +4183,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
             })())(),
           ],
           whitelistUrls: ["assets.getpocket.com/web-discover"],
-          release: "61de8ff7ce9135a880e3cfaf294f72cc62a3c2d3",
+          release: "714dd99124d9a366cecee8051da18b94c03c242c",
           environment: "Production",
         },
         zn = n("0b+E"),
@@ -6019,4 +6019,4 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
   },
   [[0, 2, 3, 4, 1, 5, 6, 7, 8, 9, 11, 15, 16, 0]],
 ]);
-//# sourceMappingURL=_app-e5c1ac1387e9c399b60a.js.map
+//# sourceMappingURL=_app-6981392cece5a87a1687.js.map

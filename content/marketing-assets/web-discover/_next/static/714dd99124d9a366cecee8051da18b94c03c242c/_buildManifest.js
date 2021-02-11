@@ -45,7 +45,7 @@ self.__BUILD_MANIFEST = (function (a, b, c, d, e) {
       a,
       b,
       d,
-      "static\u002Fchunks\u002Fpages\u002Fsyndicated-article-26f2b737511d78dd8efe.js",
+      "static\u002Fchunks\u002Fpages\u002Fsyndicated-article-c3366141e8722948ae55.js",
     ],
     "/topic": [
       a,
