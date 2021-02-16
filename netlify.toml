@@ -101,8 +101,20 @@
   force = false
 
 [[redirects]]
+  from = "/firefox/"
+  to = "/.netlify/functions/redirect/pocket-and-firefox/"
+  status = 302
+  force = false
+
+[[redirects]]
   from = "/*/ipad/"
   to = "/:splat/ios/"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/*/ipad/"
+  to = "/.netlify/functions/redirect/ios/"
   status = 302
   force = false
 
@@ -113,8 +125,14 @@
   force = false
 
 [[redirects]]
+  from = "/*/iphone/"
+  to = "/.netlify/functions/redirect/ios/"
+  status = 302
+  force = false
+
+[[redirects]]
   from = "/fire/"
-  to = "/.netlify/functions/redirect/fire"
+  to = "/.netlify/functions/redirect/android/"
   status = 302
   force = false
 
