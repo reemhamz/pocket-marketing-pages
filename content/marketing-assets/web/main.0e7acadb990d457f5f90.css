@@ -1,7 +1,7 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-Regular.eot);
-  src: url(fonts/Doyle-Regular.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Doyle-Regular.eot"),
     url(fonts/Doyle-Regular.woff2) format("woff2"),
     url(fonts/Doyle-Regular.woff) format("woff");
   font-weight: 400;
@@ -10,7 +10,7 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-RegularItalic.eot);
-  src: url(fonts/Doyle-RegularItalic.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Doyle-RegularItalic.eot"),
     url(fonts/Doyle-RegularItalic.woff2) format("woff2"),
     url(fonts/Doyle-RegularItalic.woff) format("woff");
   font-weight: 400;
@@ -19,7 +19,7 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-Medium.eot);
-  src: url(fonts/Doyle-Medium.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Doyle-Medium.eot"),
     url(fonts/Doyle-Medium.woff2) format("woff2"),
     url(fonts/Doyle-Medium.woff) format("woff");
   font-weight: 500;
@@ -28,7 +28,7 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-MediumItalic.eot);
-  src: url(fonts/Doyle-MediumItalic.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Doyle-MediumItalic.eot"),
     url(fonts/Doyle-MediumItalic.woff2) format("woff2"),
     url(fonts/Doyle-MediumItalic.woff) format("woff");
   font-weight: 500;
@@ -37,7 +37,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Thin-Web.eot);
-  src: url(fonts/Graphik-Thin-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Thin-Web.eot"),
     url(fonts/Graphik-Thin-Web.woff2) format("woff2"),
     url(fonts/Graphik-Thin-Web.woff) format("woff");
   font-weight: 100;
@@ -46,7 +46,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-ThinItalic-Web.eot);
-  src: url(fonts/Graphik-ThinItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-ThinItalic-Web.eot"),
     url(fonts/Graphik-ThinItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-ThinItalic-Web.woff) format("woff");
   font-weight: 100;
@@ -55,7 +55,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Extralight-Web.eot);
-  src: url(fonts/Graphik-Extralight-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Extralight-Web.eot"),
     url(fonts/Graphik-Extralight-Web.woff2) format("woff2"),
     url(fonts/Graphik-Extralight-Web.woff) format("woff");
   font-weight: 200;
@@ -74,7 +74,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Light-Web.eot);
-  src: url(fonts/Graphik-Light-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Light-Web.eot"),
     url(fonts/Graphik-Light-Web.woff2) format("woff2"),
     url(fonts/Graphik-Light-Web.woff) format("woff");
   font-weight: 300;
@@ -83,7 +83,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-LightItalic-Web.eot);
-  src: url(fonts/Graphik-LightItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-LightItalic-Web.eot"),
     url(fonts/Graphik-LightItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-LightItalic-Web.woff) format("woff");
   font-weight: 300;
@@ -92,7 +92,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Regular-Web.eot);
-  src: url(fonts/Graphik-Regular-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Regular-Web.eot"),
     url(fonts/Graphik-Regular-Web.woff2) format("woff2"),
     url(fonts/Graphik-Regular-Web.woff) format("woff");
   font-weight: 400;
@@ -101,7 +101,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-RegularItalic-Web.eot);
-  src: url(fonts/Graphik-RegularItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-RegularItalic-Web.eot"),
     url(fonts/Graphik-RegularItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-RegularItalic-Web.woff) format("woff");
   font-weight: 400;
@@ -110,7 +110,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Medium-Web.eot);
-  src: url(fonts/Graphik-Medium-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Medium-Web.eot"),
     url(fonts/Graphik-Medium-Web.woff2) format("woff2"),
     url(fonts/Graphik-Medium-Web.woff) format("woff");
   font-weight: 500;
@@ -119,7 +119,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-MediumItalic-Web.eot);
-  src: url(fonts/Graphik-MediumItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-MediumItalic-Web.eot"),
     url(fonts/Graphik-MediumItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-MediumItalic-Web.woff) format("woff");
   font-weight: 500;
@@ -128,7 +128,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Semibold-Web.eot);
-  src: url(fonts/Graphik-Semibold-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Semibold-Web.eot"),
     url(fonts/Graphik-Semibold-Web.woff2) format("woff2"),
     url(fonts/Graphik-Semibold-Web.woff) format("woff");
   font-weight: 600;
@@ -137,7 +137,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-SemiboldItalic-Web.eot);
-  src: url(fonts/Graphik-SemiboldItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-SemiboldItalic-Web.eot"),
     url(fonts/Graphik-SemiboldItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-SemiboldItalic-Web.woff) format("woff");
   font-weight: 600;
@@ -146,7 +146,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Bold-Web.eot);
-  src: url(fonts/Graphik-Bold-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Bold-Web.eot"),
     url(fonts/Graphik-Bold-Web.woff2) format("woff2"),
     url(fonts/Graphik-Bold-Web.woff) format("woff");
   font-weight: 700;
@@ -155,7 +155,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-BoldItalic-Web.eot);
-  src: url(fonts/Graphik-BoldItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-BoldItalic-Web.eot"),
     url(fonts/Graphik-BoldItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-BoldItalic-Web.woff) format("woff");
   font-weight: 700;
@@ -164,7 +164,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Black-Web.eot);
-  src: url(fonts/Graphik-Black-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Black-Web.eot"),
     url(fonts/Graphik-Black-Web.woff2) format("woff2"),
     url(fonts/Graphik-Black-Web.woff) format("woff");
   font-weight: 800;
@@ -173,7 +173,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-BlackItalic-Web.eot);
-  src: url(fonts/Graphik-BlackItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-BlackItalic-Web.eot"),
     url(fonts/Graphik-BlackItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-BlackItalic-Web.woff) format("woff");
   font-weight: 800;
@@ -182,7 +182,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Super-Web.eot);
-  src: url(fonts/Graphik-Super-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-Super-Web.eot"),
     url(fonts/Graphik-Super-Web.woff2) format("woff2"),
     url(fonts/Graphik-Super-Web.woff) format("woff");
   font-weight: 900;
@@ -191,7 +191,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-SuperItalic-Web.eot);
-  src: url(fonts/Graphik-SuperItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(fonts/Graphik-SuperItalic-Web.eot"),
     url(fonts/Graphik-SuperItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-SuperItalic-Web.woff) format("woff");
   font-weight: 900;

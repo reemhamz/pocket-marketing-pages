@@ -5,7 +5,7 @@ set -x
 mkdir -vp content/marketing-assets
 pushd content
 
-LANGS="en de,de-DE es,es-ES es-LA,es fr,fr-FR fr-CA,fr it,it-IT ja,ja-JP ko,ko-KR nl,nl-NL pl,pl-PL pt,pt-PT pt-BR,pt ru,ru-RU zh-CN zh-TW"
+LANGS="en,en de,de-DE es,es-ES es-LA,es fr,fr-FR fr-CA,fr it,it-IT ja,ja-JP ko,ko-KR nl,nl-NL pl,pl-PL pt,pt-PT pt-BR,pt ru,ru-RU zh-CN zh-TW"
 
 PAGES="""
 https://getpocket.com/save-to-pocket/
@@ -23,7 +23,6 @@ https://getpocket.com/chrome/
 https://getpocket.com/safari/
 https://getpocket.com/android/
 https://getpocket.com/ios/
-https://getpocket.com/fire/
 https://getpocket.com/edge/
 https://getpocket.com/opera/
 https://getpocket.com/add/
@@ -41,6 +40,7 @@ https://getpocket.com(/i/apple-touch-icon/Pocket_AppIcon_@72.png)
 for lang in ${LANGS};
 do
     short_lang=$(echo ${lang} | cut -d , -f 1)
+    long_lang=$(echo ${lang} | cut -d , -f 2)
 
     mkdir -vp ${short_lang}
     pushd ${short_lang}
@@ -52,25 +52,34 @@ do
 
     for page in ${PAGES};
     do
+        cut_dirs=0
+        if [[ $page == https://getpocket.com/about/ ]];
+        then
+            page="https://getpocket.com/${long_lang}/about/"
+            cut_dirs=1
+        fi
+
         wget --timestamping \
              --quiet\
              --header="Accept-Language: ${lang}" \
              -l 0 \
              -e robots=off \
+             --cut-dirs=${cut_dirs} \
              -nH -H -p -k --adjust-extension \
              ${page}
     done
 
     # Copy assets back to global assets (some locales have more assets than others)
     # do that in a loop because not all assets exist in all locales
-    for dir in img i j *.js web web-discover web-ui;
+    for dir in img i j *.js web web-discover web-ui _next assets;
     do
  	    cp -R "${dir}" ../marketing-assets/;
     done
-	rm -rf img i j *.js web web-discover web-ui
+	rm -rf img i j *.js web web-discover web-ui _next assets
 
     popd
 done
+
 
 
 # Get assets not processed by wget
@@ -85,12 +94,19 @@ popd
 
 prettier.sh --write .
 
-find . -name \*.html -exec sed -i  's/\.\.\//\/marketing-assets\//' {} \;
+find . -name \*.html -exec sed -i  's/\/i\/v4\//\/marketing-assets\/\i\/v4\//g' {} \;
+find . -name \*.html -exec sed -i  's/\.\.\//\/marketing-assets\//g' {} \;
 
 for file in $(find . -type f -name \*\\?\*);
 do
     mv "${file}" "${file%\?*}"
 done
+
+for file in $(find . -type f -name \*.html -o -name \*.css);
+do
+    sed -i -r 's|%3F.*?"|"|' ./en/welcome/index.html "${file}"
+done
+
 
 # Set canonical URLs
 for file in $(find . -name index.html);
