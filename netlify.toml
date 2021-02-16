@@ -113,6 +113,12 @@
   force = false
 
 [[redirects]]
+  from = "/fire/"
+  to = "/android/"
+  status = 302
+  force = false
+
+[[redirects]]
   from = "/*/fire/"
   to = "/:splat/android/"
   status = 302
