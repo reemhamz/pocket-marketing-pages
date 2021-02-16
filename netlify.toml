@@ -114,7 +114,7 @@
 
 [[redirects]]
   from = "/fire/"
-  to = "/android/"
+  to = "/.netlify/functions/redirect/fire"
   status = 302
   force = false
 
