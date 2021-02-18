@@ -4,6 +4,21 @@
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
     <title>About Us | Pocket</title>
+    <!-- OneTrust Cookies Consent Notice start for getpocket.com -->
+    <script
+      type="text/javascript"
+      src="https://cdn.cookielaw.org/consent/a7ff9c31-9f59-421f-9a8e-49b11a3eb24e/OtAutoBlock.js"
+    ></script>
+    <script
+      src="https://cdn.cookielaw.org/consent/a7ff9c31-9f59-421f-9a8e-49b11a3eb24e/otSDKStub.js"
+      type="text/javascript"
+      charset="UTF-8"
+      data-domain-script="a7ff9c31-9f59-421f-9a8e-49b11a3eb24e"
+    ></script>
+    <script type="text/javascript">
+      function OptanonWrapper() {}
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for getpocket.com -->
     <link
       rel="icon"
       type="image/x-icon"
@@ -139,13 +154,13 @@
     <meta name="next-head-count" content="6" />
     <link
       rel="preload"
-      href="/marketing-assets/_next/static/chunks/styles.93581e9a.chunk.css"
+      href="/marketing-assets/_next/static/chunks/styles.476fac07.chunk.css"
       as="style"
       crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
-      href="/marketing-assets/_next/static/chunks/styles.93581e9a.chunk.css"
+      href="/marketing-assets/_next/static/chunks/styles.476fac07.chunk.css"
       crossorigin="anonymous"
     />
     <link
@@ -156,7 +171,7 @@
     />
     <link
       rel="preload"
-      href="/marketing-assets/_next/static/chunks/webpack-d7c3e7fae8fc973eae48.js"
+      href="/marketing-assets/_next/static/chunks/webpack-b445df7485453b02eb21.js"
       as="script"
       crossorigin="anonymous"
     />
@@ -168,7 +183,7 @@
     />
     <link
       rel="preload"
-      href="/marketing-assets/_next/static/chunks/0a7151bf.24273811bbf59cbfa6bf.js"
+      href="/marketing-assets/_next/static/chunks/0a7151bf.2d1340435edd9a85b3c4.js"
       as="script"
       crossorigin="anonymous"
     />
@@ -234,7 +249,7 @@
     />
     <link
       rel="preload"
-      href="/marketing-assets/_next/static/chunks/pages/_app-889d684e926d1d1ece3b.js"
+      href="/marketing-assets/_next/static/chunks/pages/_app-2cfe57a87ee03c086a69.js"
       as="script"
       crossorigin="anonymous"
     />
@@ -244,6 +259,7 @@
       as="script"
       crossorigin="anonymous"
     />
+    <link rel="canonical" href="https://www.getpocket.com/en/about/" />
   <link rel="canonical" href="https://www.getpocket.com/en/about/">
 </head>
   <body>
@@ -255,13 +271,12 @@
               <span class="igxbmuu icon"
                 ><svg
                   aria-labelledby="mobile-menu-menu-icon-title mobile-menu-menu-icon-description"
+                  fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
                   <path
-                    fill="currentColor"
                     fill-rule="evenodd"
                     d="M2 5a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1zM2 12a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1zM2 19a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1z"
                     clip-rule="evenodd"
@@ -314,13 +329,12 @@
                 ><span class="igxbmuu icon"
                   ><svg
                     aria-labelledby=" "
+                    fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
                     <path
-                      fill="currentColor"
                       d="M12 11.125a5.067 5.067 0 01-5.06-5.063A5.067 5.067 0 0112 1c2.79 0 5.06 2.271 5.06 5.062A5.067 5.067 0 0112 11.125zM12 3a3.06 3.06 0 10.001 6.121A3.06 3.06 0 0012 3.001zM11.99 15.006c4.41 0 7.98 2.302 8.01 4.993H4v-.07c.12-2.741 3.63-4.923 7.99-4.923zm0-2c-5.44 0-9.85 3.071-9.99 6.883V20C2 21.1 2.9 22 4 22h16c1.09 0 1.98-.88 2-1.97-.04-3.883-4.5-7.025-10.01-7.025z"
                     ></path></svg></span
                 ><span class="label">Sign up</span></a
@@ -565,7 +579,9 @@
                   >Privacy policy</a
                 ><a href="https://getpocket.com/tos?src=footer_v2"
                   >Terms of service</a
-                >
+                ><button id="ot-sdk-btn" class="ot-sdk-show-settings">
+                  Cookie preferences
+                </button>
               </nav>
             </div>
             <div class="sgll6ip">
@@ -576,13 +592,12 @@
                 ><span class="igxbmuu icon"
                   ><svg
                     aria-labelledby="facebook-footer-icon-title facebook-footer-icon-description"
+                    fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
                     <path
-                      fill="currentColor"
                       fill-rule="evenodd"
                       d="M23 12c0-6.075-4.925-11-11-11S1 5.925 1 12c0 5.49 4.023 10.041 9.281 10.866V15.18H7.488V12h2.793V9.577c0-2.757 1.643-4.28 4.155-4.28 1.204 0 2.462.215 2.462.215v2.707h-1.387c-1.366 0-1.792.848-1.792 1.718V12h3.05l-.487 3.18h-2.563v7.686C18.977 22.041 23 17.49 23 12z"
                       clip-rule="evenodd"
@@ -600,13 +615,12 @@
                 ><span class="igxbmuu icon"
                   ><svg
                     aria-labelledby="twitter-footer-icon-title twitter-footer-icon-description"
+                    fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
                     <path
-                      fill="currentColor"
                       fill-rule="evenodd"
                       d="M23 5.132a8.976 8.976 0 01-2.592.715 4.567 4.567 0 001.985-2.51 9.013 9.013 0 01-2.865 1.102A4.495 4.495 0 0016.232 3c-2.495 0-4.516 2.036-4.516 4.547 0 .357.045.704.119 1.034-3.754-.188-7.079-1.999-9.304-4.746a4.551 4.551 0 001.398 6.064 4.55 4.55 0 01-2.049-.566v.053c0 2.203 1.555 4.041 3.623 4.452-.381.11-.779.164-1.192.164-.287 0-.572-.029-.846-.08a4.512 4.512 0 004.214 3.155A9.029 9.029 0 011 18.959 12.707 12.707 0 007.914 21c8.307 0 12.847-6.922 12.847-12.928 0-.198-.007-.394-.014-.59A9.242 9.242 0 0023 5.132z"
                       clip-rule="evenodd"
@@ -654,7 +668,7 @@
             "topicList": { "activeTopic": "", "topicsByName": {} },
             "user": {
               "auth": false,
-              "sess_guid": "f63g7df5p4381Au68dT0xf2P63A2p8aK904l4fY694Cs1eG1fvM80umnIc9id953"
+              "sess_guid": "3drp5T61A0l33B9c56guH69Ug8d6Aa8c833S29wa25N52cp6c5213Tb5c60SF5c1"
             },
             "items": {},
             "recit": {
@@ -708,7 +722,7 @@
         },
         "page": "/about",
         "query": {},
-        "buildId": "c5a4e8b525c6337546fe5384e9defa0de8a56691",
+        "buildId": "6ff6fcce5f7e5e4ae5df2b215a5ff9eb378f8c16",
         "assetPrefix": "https://assets.getpocket.com/web-discover",
         "isFallback": false,
         "customServer": true,
@@ -727,7 +741,7 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="/marketing-assets/_next/static/chunks/webpack-d7c3e7fae8fc973eae48.js"
+      src="/marketing-assets/_next/static/chunks/webpack-b445df7485453b02eb21.js"
       async=""
       crossorigin="anonymous"
     ></script>
@@ -737,7 +751,7 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="/marketing-assets/_next/static/chunks/0a7151bf.24273811bbf59cbfa6bf.js"
+      src="/marketing-assets/_next/static/chunks/0a7151bf.2d1340435edd9a85b3c4.js"
       async=""
       crossorigin="anonymous"
     ></script>
@@ -792,7 +806,7 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="/marketing-assets/_next/static/chunks/pages/_app-889d684e926d1d1ece3b.js"
+      src="/marketing-assets/_next/static/chunks/pages/_app-2cfe57a87ee03c086a69.js"
       async=""
       crossorigin="anonymous"
     ></script>
@@ -802,12 +816,12 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="/marketing-assets/_next/static/c5a4e8b525c6337546fe5384e9defa0de8a56691/_buildManifest.js"
+      src="/marketing-assets/_next/static/6ff6fcce5f7e5e4ae5df2b215a5ff9eb378f8c16/_buildManifest.js"
       async=""
       crossorigin="anonymous"
     ></script>
     <script
-      src="/marketing-assets/_next/static/c5a4e8b525c6337546fe5384e9defa0de8a56691/_ssgManifest.js"
+      src="/marketing-assets/_next/static/6ff6fcce5f7e5e4ae5df2b215a5ff9eb378f8c16/_ssgManifest.js"
       async=""
       crossorigin="anonymous"
     ></script>
