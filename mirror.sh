@@ -68,6 +68,7 @@ do
              --header="Accept-Language: ${lang}" \
              -l 0 \
              -e robots=off \
+             --user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0" \
              --cut-dirs=${cut_dirs} \
              -nH -H -p -k --adjust-extension \
              ${page}
