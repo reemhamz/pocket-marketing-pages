@@ -1575,7 +1575,7 @@ nav ul {
 }
 
 .header-global .header-menulink {
-    background: url(web/i/v4/header-menulink@1x.png) 50% no-repeat;
+    background: url(i/v4/header-menulink@1x.png) 50% no-repeat;
     height: .8125em;
     left: auto;
     overflow: hidden;
@@ -1664,7 +1664,7 @@ nav ul {
 }
 
 .footer-global-social .icon-facebook, .footer-global-social .icon-googleplus, .footer-global-social .icon-twitter {
-    background: url(web/i/v4/footer_socialicons@1x.png) 0 1px no-repeat;
+    background: url(i/v4/footer_socialicons@1x.png) 0 1px no-repeat;
     width: 22px
 }
 
@@ -1730,21 +1730,21 @@ nav ul {
     }
 
     .header-global .header-menulink {
-        background-image: url(web/i/v4/header-menulink@2x.png);
+        background-image: url(i/v4/header-menulink@2x.png);
         background-size: 23px 13px
     }
 
     .lt-ie9 .header-global .header-menulink {
-        background-image: url(web/i/v4/header-menulink@1x.png)
+        background-image: url(i/v4/header-menulink@1x.png)
     }
 
     .footer-global-social .icon-facebook, .footer-global-social .icon-googleplus, .footer-global-social .icon-twitter {
-        background-image: url(web/i/v4/footer_socialicons@2x.png);
+        background-image: url(i/v4/footer_socialicons@2x.png);
         background-size: 240px 400px
     }
 
     .lt-ie9 .footer-global-social .icon-facebook, .lt-ie9 .footer-global-social .icon-googleplus, .lt-ie9 .footer-global-social .icon-twitter {
-        background-image: url(web/i/v4/footer_socialicons@1x.png)
+        background-image: url(i/v4/footer_socialicons@1x.png)
     }
 
     .header-mini #header-logo {
@@ -2101,7 +2101,7 @@ nav ul {
 }
 
 .getpocketfor .amazon, .getpocketfor .googleplay, .getpocketfor .ios, .getpocketfor .mac {
-    background: url(web/i/v4/add_appbuttons@1x.png) 0 0 no-repeat;
+    background: url(i/v4/add_appbuttons@1x.png) 0 0 no-repeat;
     display: block;
     margin: 1em 0;
     overflow: hidden;
@@ -2222,7 +2222,7 @@ nav ul {
 }
 
 .integratedapps .appicons a {
-    background: url(web/i/v4/add_appicons@1x.png) 0 0 no-repeat;
+    background: url(i/v4/add_appicons@1x.png) 0 0 no-repeat;
     display: block;
     height: 68px;
     margin: .4em;
@@ -2288,17 +2288,17 @@ nav ul {
 }
 
 .page-add .installed_stepone {
-    background-image: url(web/i/ffnew/installed_step1@1x.jpg);
+    background-image: url(i/ffnew/installed_step1@1x.jpg);
     background-position: center 25px
 }
 
 .page-add .installed_steptwo {
-    background-image: url(web/i/ffnew/installed_step2@1x.jpg);
+    background-image: url(i/ffnew/installed_step2@1x.jpg);
     background-position: center 20px
 }
 
 .page-add .installed_stepthree {
-    background-image: url(web/i/ffnew/installed_step3@1x.jpg);
+    background-image: url(i/ffnew/installed_step3@1x.jpg);
     background-position: center 22px
 }
 
@@ -2316,7 +2316,7 @@ nav ul {
 }
 
 .page-add .installed_view {
-    background: url(web/i/installed/installed_view@1x.jpg) 195px 30px no-repeat;
+    background: url(i/installed/installed_view@1x.jpg) 195px 30px no-repeat;
     height: 278px;
     width: 605px
 }
@@ -2332,7 +2332,7 @@ nav ul {
 }
 
 .page-add .installed_view .arrow {
-    background: url(web/i/installed/installed_arrow@1x.png) 50% no-repeat;
+    background: url(i/installed/installed_arrow@1x.png) 50% no-repeat;
     bottom: -63px;
     display: block;
     height: 53px;
@@ -2362,37 +2362,37 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .getpocketfor .amazon, .getpocketfor .googleplay, .getpocketfor .ios, .getpocketfor .mac {
-        background-image: url(web/i/v4/add_appbuttons@2x.png);
+        background-image: url(i/v4/add_appbuttons@2x.png);
         background-size: 280px 600px
     }
 
     .integratedapps .appicons a {
-        background-image: url(web/i/v4/add_appicons@2x.png);
+        background-image: url(i/v4/add_appicons@2x.png);
         background-size: 160px 920px
     }
 
     .page-add .installed_stepone {
-        background-image: url(web/i/ffnew/installed_step1@2x.jpg);
+        background-image: url(i/ffnew/installed_step1@2x.jpg);
         background-size: 175px 142px
     }
 
     .page-add .installed_steptwo {
-        background-image: url(web/i/ffnew/installed_step2@2x.jpg);
+        background-image: url(i/ffnew/installed_step2@2x.jpg);
         background-size: 222px 167px
     }
 
     .page-add .installed_stepthree {
-        background-image: url(web/i/ffnew/installed_step3@2x.jpg);
+        background-image: url(i/ffnew/installed_step3@2x.jpg);
         background-size: 193px 150px
     }
 
     .page-add .installed_view {
-        background-image: url(web/i/installed/installed_view@2x.jpg);
+        background-image: url(i/installed/installed_view@2x.jpg);
         background-size: 407px 244px
     }
 
     .page-add .installed_view .arrow {
-        background-image: url(web/i/installed/installed_arrow@2x.png);
+        background-image: url(i/installed/installed_arrow@2x.png);
         background-size: 102px 53px
     }
 }
@@ -2630,17 +2630,17 @@ nav ul {
 }
 
 .bookmarklet-step .inlineimg, .bookmarklet-step .screenshot {
-    background-image: url(web/i/v4/bookmarklet_imgs@1x.png);
+    background-image: url(i/v4/bookmarklet_imgs@1x.png);
     background-repeat: no-repeat
 }
 
 .bookmarklet-step-small .screenshot {
-    background-image: url(web/i/v4/bookmarklet_imgs_small@1x.png);
+    background-image: url(i/v4/bookmarklet_imgs_small@1x.png);
     background-repeat: no-repeat
 }
 
 .page-bookmarklet-ipad .bookmarklet-step .inlineimg, .page-bookmarklet-ipad .bookmarklet-step .screenshot {
-    background-image: url(web/i/v4/bookmarklet_imgs_ipad@1x.png)
+    background-image: url(i/v4/bookmarklet_imgs_ipad@1x.png)
 }
 
 .bookmarklet-step .inlineimg {
@@ -2867,16 +2867,16 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .bookmarklet-step .inlineimg, .bookmarklet-step .screenshot {
-        background-image: url(web/i/v4/bookmarklet_imgs@2x.png);
+        background-image: url(i/v4/bookmarklet_imgs@2x.png);
         background-size: 286px 1280px
     }
 
     .page-bookmarklet-ipad .bookmarklet-step .inlineimg, .page-bookmarklet-ipad .bookmarklet-step .screenshot {
-        background-image: url(web/i/v4/bookmarklet_imgs_ipad@2x.png)
+        background-image: url(i/v4/bookmarklet_imgs_ipad@2x.png)
     }
 
     .bookmarklet-step-small .screenshot {
-        background-image: url(web/i/v4/bookmarklet_imgs_small@2x.png);
+        background-image: url(i/v4/bookmarklet_imgs_small@2x.png);
         background-size: 200px 895px
     }
 }
@@ -3320,7 +3320,7 @@ nav ul {
 
 @media only screen and (min-width: 38em) {
     .page-confirmemail-fullbg .confirm-bg {
-        background: #111 url(web/i/v4/confirm_bigbg@2x.jpg) 50% no-repeat;
+        background: #111 url(i/v4/confirm_bigbg@2x.jpg) 50% no-repeat;
         background-size: cover;
         position: fixed;
         height: 100%;
@@ -3364,7 +3364,7 @@ nav ul {
 }
 
 .confirm-emailconfirmed-logo {
-    background: url(web/i/v4/confirm_core@1x.png) -60px -70px no-repeat;
+    background: url(i/v4/confirm_core@1x.png) -60px -70px no-repeat;
     display: inline-block;
     height: 17px;
     margin-right: .5em;
@@ -3385,7 +3385,7 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
     .confirm-emailconfirmed-logo {
-        background-image: url(web/i/v4/confirm_core@2x.png);
+        background-image: url(i/v4/confirm_core@2x.png);
         background-size: 91px 89px
     }
 }
@@ -3453,7 +3453,7 @@ nav ul {
 
 @media only screen and (min-width: 38em) {
     .confirm-appandroid-logo, .confirm-appios-logo {
-        background: url(web/i/v4/confirm_core@1x.png) 0 0 no-repeat;
+        background: url(i/v4/confirm_core@1x.png) 0 0 no-repeat;
         display: inline-block;
         height: 30px;
         margin-right: 1em;
@@ -3480,7 +3480,7 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
     .confirm-appandroid-logo, .confirm-appios-logo {
-        background-image: url(web/i/v4/confirm_core@2x.png);
+        background-image: url(i/v4/confirm_core@2x.png);
         background-size: 91px 89px
     }
 }
@@ -3523,7 +3523,7 @@ nav ul {
 }
 
 .page-edit h1 {
-    background: url(web/i/v4/pocket_logomini@1x.png) 50% no-repeat;
+    background: url(i/v4/pocket_logomini@1x.png) 50% no-repeat;
     display: block;
     height: 30px;
     margin: .5em auto .3em;
@@ -3624,7 +3624,7 @@ nav ul {
 }
 
 .page-extsave .edit-close {
-    background: url(web/a/i/tag_close@1x.png) 50% no-repeat;
+    background: url(a/i/tag_close@1x.png) 50% no-repeat;
     color: #555;
     display: block;
     font-size: .8em;
@@ -4474,12 +4474,12 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .page-edit h1 {
-        background-image: url(web/i/v4/pocket_logomini@2x.png);
+        background-image: url(i/v4/pocket_logomini@2x.png);
         background-size: 121px 30px
     }
 
     .page-extsave .edit-close {
-        background-image: url(web/a/i/tag_close@2x.png);
+        background-image: url(a/i/tag_close@2x.png);
         background-size: 8px 8px
     }
 }
@@ -4511,7 +4511,7 @@ nav ul {
 }
 
 .header-eoy {
-    background: #f04052 url(web/i/v4/eoy_headerbanner_small@1x.jpg) 50% no-repeat;
+    background: #f04052 url(i/v4/eoy_headerbanner_small@1x.jpg) 50% no-repeat;
     padding-bottom: .8em
 }
 
@@ -4542,7 +4542,7 @@ nav ul {
 }
 
 .pocket-eoy-ribbon {
-    background: url(web/i/v4/icons_eoy@1x.png) 0 -800px no-repeat;
+    background: url(i/v4/icons_eoy@1x.png) 0 -800px no-repeat;
     display: inline-block;
     height: 80px;
     margin: .3em 10px .3em 0;
@@ -4559,7 +4559,7 @@ nav ul {
 }
 
 .header-eoy h2 {
-    background: url(web/i/v4/icons_eoy@1x.png) 0 -720px no-repeat;
+    background: url(i/v4/icons_eoy@1x.png) 0 -720px no-repeat;
     display: inline-block;
     height: 80px;
     margin: .2em 0 .3em 10px;
@@ -4673,7 +4673,7 @@ nav ul {
 }
 
 .eoy-narrownav .header-menulink {
-    background: url(web/i/v4/icons_eoy@1x.png) -875px -474px no-repeat;
+    background: url(i/v4/icons_eoy@1x.png) -875px -474px no-repeat;
     border: 1px solid #7b7b7b;
     border-radius: .25em;
     display: block;
@@ -4747,7 +4747,7 @@ nav ul {
 }
 
 .eoy-share .icon {
-    background: url(web/i/v4/icons_eoy@1x.png) 0 1px no-repeat;
+    background: url(i/v4/icons_eoy@1x.png) 0 1px no-repeat;
     display: inline-block;
     height: 1em;
     margin-right: .5em;
@@ -4841,7 +4841,7 @@ nav ul {
 
 .eoy-sharealt .share {
     border-radius: 2em;
-    background: #ddd url(web/i/v4/icons_eoy@1x.png) 0 0 no-repeat;
+    background: #ddd url(i/v4/icons_eoy@1x.png) 0 0 no-repeat;
     display: block;
     height: 1.1em;
     margin: 0 .5em;
@@ -4998,7 +4998,7 @@ nav ul {
 
 .eoy-item .domain {
     color: #2e2e2e;
-    background: url(web/i/v4/icons_eoy@1x.png) -880px -392px no-repeat;
+    background: url(i/v4/icons_eoy@1x.png) -880px -392px no-repeat;
     display: inline-block;
     margin-left: .7em;
     padding-left: .8em
@@ -5076,7 +5076,7 @@ nav ul {
 }
 
 .footer-eoy .devices {
-    background: url(web/i/v4/eoy_devices_small@1x.jpg) 50% no-repeat;
+    background: url(i/v4/eoy_devices_small@1x.jpg) 50% no-repeat;
     display: block;
     height: 180px;
     margin: .3em auto 1em;
@@ -5095,7 +5095,7 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .eoy-item .domain, .eoy-narrownav .header-menulink, .eoy-share .icon, .eoy-sharealt .share, .header-eoy h2, .pocket-eoy-ribbon {
-        background-image: url(web/i/v4/icons_eoy@2x.png);
+        background-image: url(i/v4/icons_eoy@2x.png);
         background-size: 1000px 1000px
     }
 
@@ -5108,19 +5108,19 @@ nav ul {
     }
 
     .header-eoy {
-        background-image: url(web/i/v4/eoy_headerbanner_small@2x.jpg);
+        background-image: url(i/v4/eoy_headerbanner_small@2x.jpg);
         background-size: 768px 175px
     }
 
     .footer-eoy .devices {
-        background-image: url(web/i/v4/eoy_devices_small@2x.jpg);
+        background-image: url(i/v4/eoy_devices_small@2x.jpg);
         background-size: 267px 180px
     }
 }
 
 @media only screen and (min-width: 24em) {
     .eoy-breakout-container {
-        background: #63c4c1 -860px -782px url(web/i/v4/icons_eoy@1x.png) no-repeat;
+        background: #63c4c1 -860px -782px url(i/v4/icons_eoy@1x.png) no-repeat;
         max-width: 30em;
         margin-left: auto;
         margin-right: auto
@@ -5138,7 +5138,7 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 24em), only screen and (min-resolution: 144dpi) and (min-width: 24em) {
     .eoy-breakout-container {
-        background-image: url(web/i/v4/icons_eoy@2x.png);
+        background-image: url(i/v4/icons_eoy@2x.png);
         background-size: 1000px 1000px
     }
 }
@@ -5189,7 +5189,7 @@ nav ul {
 
 @media only screen and (min-width: 48em) {
     .eoy-item .domain, .eoy-narrownav .header-menulink, .eoy-share .icon, .eoy-sharealt .share {
-        background-image: url(web/i/v4/icons_eoy_wide@1x.png)
+        background-image: url(i/v4/icons_eoy_wide@1x.png)
     }
 
     .eoy-item .domain-noauthor {
@@ -5197,14 +5197,14 @@ nav ul {
     }
 
     .pocket-eoy-ribbon {
-        background: url(web/i/v4/icons_eoy_wide@1x.png) 0 -880px no-repeat;
+        background: url(i/v4/icons_eoy_wide@1x.png) 0 -880px no-repeat;
         height: 190px;
         margin-top: 1em;
         width: 182px
     }
 
     .header-eoy {
-        background: #f04052 url(web/i/v4/eoy_headerbanner@1x.jpg) 50% no-repeat;
+        background: #f04052 url(i/v4/eoy_headerbanner@1x.jpg) 50% no-repeat;
         padding-bottom: 0
     }
 
@@ -5231,7 +5231,7 @@ nav ul {
     }
 
     .header-eoy h2 {
-        background: url(web/i/v4/icons_eoy_wide@1x.png) 0 -716px no-repeat;
+        background: url(i/v4/icons_eoy_wide@1x.png) 0 -716px no-repeat;
         height: 74px;
         margin: 1.5em auto .5em;
         top: 0;
@@ -5262,7 +5262,7 @@ nav ul {
     }
 
     .eoy-breakout-container {
-        background: #63c4c1 -850px -840px url(web/i/v4/icons_eoy_wide@1x.png) no-repeat;
+        background: #63c4c1 -850px -840px url(i/v4/icons_eoy_wide@1x.png) no-repeat;
         max-width: 43em;
         margin-bottom: 0;
         padding: 1.5em
@@ -5418,7 +5418,7 @@ nav ul {
     }
 
     .footer-eoy .devices {
-        background: url(web/i/v4/eoy_devices@1x.jpg) 50% no-repeat;
+        background: url(i/v4/eoy_devices@1x.jpg) 50% no-repeat;
         float: right;
         height: 311px;
         margin-bottom: .5em;
@@ -5443,7 +5443,7 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 48em), only screen and (min-resolution: 144dpi) and (min-width: 48em) {
     .eoy-breakout-container, .eoy-item .domain, .eoy-narrownav .header-menulink, .eoy-share .icon, .eoy-sharealt .share, .header-eoy h2, .pocket-eoy-ribbon {
-        background-image: url(web/i/v4/icons_eoy_wide@2x.png);
+        background-image: url(i/v4/icons_eoy_wide@2x.png);
         background-size: 1000px 1200px
     }
 
@@ -5456,12 +5456,12 @@ nav ul {
     }
 
     .header-eoy {
-        background-image: url(web/i/v4/eoy_headerbanner@2x.jpg);
+        background-image: url(i/v4/eoy_headerbanner@2x.jpg);
         background-size: 2000px 300px
     }
 
     .footer-eoy .devices {
-        background-image: url(web/i/v4/eoy_devices@2x.jpg);
+        background-image: url(i/v4/eoy_devices@2x.jpg);
         background-size: 353px 311px
     }
 }
@@ -5568,29 +5568,29 @@ nav ul {
 }
 
 .browser-chrome .installed_stepone {
-    background-image: url(web/i/chrome/installed_step1@1x.jpg)
+    background-image: url(i/chrome/installed_step1@1x.jpg)
 }
 
 .browser-edge .installed_stepone {
-    background-image: url(web/i/edge/installed_step1@1x.jpg)
+    background-image: url(i/edge/installed_step1@1x.jpg)
 }
 
 .browser-ff .installed_stepone {
-    background-image: url(web/i/ff/installed_step1@1x.jpg);
+    background-image: url(i/ff/installed_step1@1x.jpg);
     background-position: center 0
 }
 
 .browser-ffnew .installed_stepone {
-    background-image: url(web/i/ffnew/installed_step1@1x.jpg)
+    background-image: url(i/ffnew/installed_step1@1x.jpg)
 }
 
 .browser-opera .installed_stepone {
-    background-image: url(web/i/opera/installed_step1@1x.jpg);
+    background-image: url(i/opera/installed_step1@1x.jpg);
     background-position: center 15px
 }
 
 .browser-safari .installed_stepone {
-    background-image: url(web/i/safari/installed_step1@1x.jpg)
+    background-image: url(i/safari/installed_step1@1x.jpg)
 }
 
 .installed_steptwo {
@@ -5598,27 +5598,27 @@ nav ul {
 }
 
 .browser-edge .installed_steptwo {
-    background-image: url(web/i/edge/installed_step2@1x.jpg)
+    background-image: url(i/edge/installed_step2@1x.jpg)
 }
 
 .browser-chrome .installed_steptwo {
-    background-image: url(web/i/chrome/installed_step2@1x.jpg)
+    background-image: url(i/chrome/installed_step2@1x.jpg)
 }
 
 .browser-ff .installed_steptwo {
-    background-image: url(web/i/ff/installed_step2@1x.jpg)
+    background-image: url(i/ff/installed_step2@1x.jpg)
 }
 
 .browser-ffnew .installed_steptwo {
-    background-image: url(web/i/ffnew/installed_step2@1x.jpg)
+    background-image: url(i/ffnew/installed_step2@1x.jpg)
 }
 
 .browser-opera .installed_steptwo {
-    background-image: url(web/i/opera/installed_step2@1x.jpg)
+    background-image: url(i/opera/installed_step2@1x.jpg)
 }
 
 .browser-safari .installed_steptwo {
-    background-image: url(web/i/safari/installed_step2@1x.jpg)
+    background-image: url(i/safari/installed_step2@1x.jpg)
 }
 
 .installed_stepthree {
@@ -5626,32 +5626,32 @@ nav ul {
 }
 
 .browser-chrome .installed_stepthree {
-    background-image: url(web/i/chrome/installed_step3@1x.jpg)
+    background-image: url(i/chrome/installed_step3@1x.jpg)
 }
 
 .browser-edge .installed_stepthree {
-    background-image: url(web/i/edge/installed_step3@1x.jpg)
+    background-image: url(i/edge/installed_step3@1x.jpg)
 }
 
 .browser-ff .installed_stepthree {
-    background-image: url(web/i/ff/installed_step3@1x.jpg)
+    background-image: url(i/ff/installed_step3@1x.jpg)
 }
 
 .browser-ffnew .installed_stepthree {
-    background-image: url(web/i/ffnew/installed_step3@1x.jpg)
+    background-image: url(i/ffnew/installed_step3@1x.jpg)
 }
 
 .browser-opera .installed_stepthree {
-    background-image: url(web/i/opera/installed_step3@1x.jpg);
+    background-image: url(i/opera/installed_step3@1x.jpg);
     background-position: center 15px
 }
 
 .browser-safari .installed_stepthree {
-    background-image: url(web/i/safari/installed_step3@1x.jpg)
+    background-image: url(i/safari/installed_step3@1x.jpg)
 }
 
 .installed_view {
-    background: url(web/i/installed/installed_view@1x.jpg) center 20px no-repeat;
+    background: url(i/installed/installed_view@1x.jpg) center 20px no-repeat;
     background-size: contain;
     min-height: 250px
 }
@@ -5712,12 +5712,12 @@ nav ul {
 }
 
 .installed_saving {
-    background: url(web/i/welcome/chromegsf_installed1@1x.jpg) top no-repeat;
+    background: url(i/welcome/chromegsf_installed1@1x.jpg) top no-repeat;
     background-size: contain
 }
 
 .installed_viewing {
-    background: url(web/i/welcome/chromegsf_installed2@1x.jpg) top no-repeat;
+    background: url(i/welcome/chromegsf_installed2@1x.jpg) top no-repeat;
     background-size: contain;
     padding-top: 200px
 }
@@ -5755,12 +5755,12 @@ nav ul {
 }
 
 .version-signupexperimental .installed_saveforlater {
-    background: url(web/i/v4/icons_homesaveview@1x.jpg) center 0 no-repeat;
+    background: url(i/v4/icons_homesaveview@1x.jpg) center 0 no-repeat;
     padding-top: 250px
 }
 
 .version-signupexperimental .installed_viewready {
-    background: url(web/i/installed/installed_view@1x.jpg) center 0 no-repeat;
+    background: url(i/installed/installed_view@1x.jpg) center 0 no-repeat;
     background-size: contain;
     padding-top: 250px
 }
@@ -5809,7 +5809,7 @@ nav ul {
 }
 
 .version-signupexperimental .icon_ios {
-    background: url(web/i/v4/icons_home@1x.png) 6px -772px no-repeat;
+    background: url(i/v4/icons_home@1x.png) 6px -772px no-repeat;
     height: 2em
 }
 
@@ -5818,7 +5818,7 @@ nav ul {
 }
 
 .version-signupexperimental .icon_android {
-    background: url(web/i/v4/icons_home@1x.png) 2px -611px no-repeat;
+    background: url(i/v4/icons_home@1x.png) 2px -611px no-repeat;
     height: 2em
 }
 
@@ -5827,7 +5827,7 @@ nav ul {
 }
 
 .version-signupexperimental .icon_kobo {
-    background: url(web/i/v4/icons_home@1x.png) 3px -931px no-repeat;
+    background: url(i/v4/icons_home@1x.png) 3px -931px no-repeat;
     height: 2em
 }
 
@@ -5836,7 +5836,7 @@ nav ul {
 }
 
 .version-signupexperimental .icon_web {
-    background: url(web/i/v4/icons_home@1x.png) 0 -1096px no-repeat;
+    background: url(i/v4/icons_home@1x.png) 0 -1096px no-repeat;
     height: 1.8em
 }
 
@@ -6003,7 +6003,7 @@ nav ul {
     }
 
     .installed_view .arrow {
-        background: url(web/i/installed/installed_arrow@1x.png) 50% no-repeat;
+        background: url(i/installed/installed_arrow@1x.png) 50% no-repeat;
         bottom: -63px;
         display: block;
         height: 53px;
@@ -6034,37 +6034,37 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .page-installed .installed_view {
-        background-image: url(web/i/installed/installed_view@2x.jpg);
+        background-image: url(i/installed/installed_view@2x.jpg);
         background-size: 407px 244px
     }
 
     .page-installed .installed_view .arrow {
-        background-image: url(web/i/installed/installed_arrow@2x.png);
+        background-image: url(i/installed/installed_arrow@2x.png);
         background-size: 102px 53px
     }
 
     .browser-ffnew .installed_stepone {
-        background-image: url(web/i/ffnew/installed_step1@2x.jpg);
+        background-image: url(i/ffnew/installed_step1@2x.jpg);
         background-size: 175px 142px
     }
 
     .browser-ffnew .installed_steptwo {
-        background-image: url(web/i/ffnew/installed_step2@2x.jpg);
+        background-image: url(i/ffnew/installed_step2@2x.jpg);
         background-size: 222px 167px
     }
 
     .browser-ffnew .installed_stepthree {
-        background-image: url(web/i/ffnew/installed_step3@2x.jpg);
+        background-image: url(i/ffnew/installed_step3@2x.jpg);
         background-size: 193px 150px
     }
 
     .installed_saving {
-        background-image: url(web/i/welcome/chromegsf_installed1@2x.jpg);
+        background-image: url(i/welcome/chromegsf_installed1@2x.jpg);
         background-size: 300px 300px
     }
 
     .installed_viewing {
-        background-image: url(web/i/welcome/chromegsf_installed2@2x.jpg);
+        background-image: url(i/welcome/chromegsf_installed2@2x.jpg);
         background-size: 440px 300px
     }
 }
@@ -6568,7 +6568,7 @@ nav ul {
 }
 
 .perm-library-toolbar .content {
-    background: url(web/a/i/icons_permlibrary@1x.png) 0 3px no-repeat;
+    background: url(a/i/icons_permlibrary@1x.png) 0 3px no-repeat;
     float: left;
     margin-left: 35px;
     margin-top: 7px;
@@ -6593,7 +6593,7 @@ nav ul {
 }
 
 .perm-library-toolbar .viewcurrent:after {
-    background: url(web/a/i/icons_permlibrary@1x.png) 0 -40px no-repeat;
+    background: url(a/i/icons_permlibrary@1x.png) 0 -40px no-repeat;
     display: inline-block;
     height: 10px;
     margin-left: 15px;
@@ -6620,7 +6620,7 @@ nav ul {
 }
 
 .signupform-close {
-    background: url(web/i/v4/signup_closecta@1x.png) 50% no-repeat;
+    background: url(i/v4/signup_closecta@1x.png) 50% no-repeat;
     cursor: pointer;
     height: 11px;
     position: absolute;
@@ -6854,7 +6854,7 @@ nav ul {
 }
 
 .coreform-container .forgot-processing, .coreform-container .login-processing, .coreform-container .logingoogle-processing, .coreform-container .signup-processing, .coreform-container .signupgoogle-processing {
-    background: url(web/i/spinner_med.gif) top no-repeat;
+    background: url(i/spinner_med.gif) top no-repeat;
     background-size: 16px 16px;
     display: none;
     position: absolute;
@@ -7381,12 +7381,12 @@ nav ul {
 }
 
 .page-signup-minimal .header-mini #header-logo {
-    background-image: url(web/i/v_la_croix/pocket_firefox_logo@1x.png);
+    background-image: url(i/v_la_croix/pocket_firefox_logo@1x.png);
     height: 25px;
     margin-top: .25em;
     margin-bottom: .25em;
     width: 90px;
-    background-image: url(web/i/v_la_croix/pocket_firefox_logo_large@1x.png);
+    background-image: url(i/v_la_croix/pocket_firefox_logo_large@1x.png);
     height: 35px;
     float: none;
     margin-left: auto;
@@ -7458,12 +7458,12 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .signupform-close {
-        background-image: url(web/i/v4/signup_closecta@2x.png);
+        background-image: url(i/v4/signup_closecta@2x.png);
         background-size: 11px 11px
     }
 
     .page-signup-minimal .header-mini #header-logo {
-        background-image: url(web/i/v_la_croix/pocket_firefox_logo_large@2x.png);
+        background-image: url(i/v_la_croix/pocket_firefox_logo_large@2x.png);
         background-size: 140px 35px
     }
 }
@@ -7652,19 +7652,19 @@ nav ul {
     }
 
     .page-signup-minimal-bg-one .signup-content-bg {
-        background-image: url(web/i/v4/testsignupbg/signupbg_testone@1x.jpg)
+        background-image: url(i/v4/testsignupbg/signupbg_testone@1x.jpg)
     }
 
     .page-signup-minimal-bg-two .signup-content-bg {
-        background-image: url(web/i/v4/testsignupbg/signupbg_testtwo@1x.jpg)
+        background-image: url(i/v4/testsignupbg/signupbg_testtwo@1x.jpg)
     }
 
     .page-signup-minimal-bg-three .signup-content-bg {
-        background-image: url(web/i/v4/testsignupbg/signupbg_testthree@1x.jpg)
+        background-image: url(i/v4/testsignupbg/signupbg_testthree@1x.jpg)
     }
 
     .page-signup-minimal-whitelogo .header-mini #header-logo {
-        background-image: url(web/i/v4/firefox_pocketlogowhite_large@1x.png)
+        background-image: url(i/v4/firefox_pocketlogowhite_large@1x.png)
     }
 
     .signup-valueprop {
@@ -7691,19 +7691,19 @@ nav ul {
 
 @media only screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 48em) and (min-resolution: 144dpi) {
     .page-signup-minimal-bg-one .signup-content-bg {
-        background-image: url(web/i/v4/testsignupbg/signupbg_testone@2x.jpg)
+        background-image: url(i/v4/testsignupbg/signupbg_testone@2x.jpg)
     }
 
     .page-signup-minimal-bg-two .signup-content-bg {
-        background-image: url(web/i/v4/testsignupbg/signupbg_testtwo@2x.jpg)
+        background-image: url(i/v4/testsignupbg/signupbg_testtwo@2x.jpg)
     }
 
     .page-signup-minimal-bg-three .signup-content-bg {
-        background-image: url(web/i/v4/testsignupbg/signupbg_testthree@2x.jpg)
+        background-image: url(i/v4/testsignupbg/signupbg_testthree@2x.jpg)
     }
 
     .page-signup-minimal-whitelogo .header-mini #header-logo {
-        background-image: url(web/i/v4/firefox_pocketlogowhite_large@2x.png)
+        background-image: url(i/v4/firefox_pocketlogowhite_large@2x.png)
     }
 }
 
@@ -8150,7 +8150,7 @@ nav ul {
 }
 
 .premium-form .toggle-yrmth > .icon {
-    background: url(web/i/v4/icons_premium@1x.png) 0 -480px no-repeat;
+    background: url(i/v4/icons_premium@1x.png) 0 -480px no-repeat;
     display: block;
     float: left;
     height: 18px;
@@ -8182,7 +8182,7 @@ nav ul {
 }
 
 .premium-form .cc-examples li {
-    background: url(web/i/v4/icons_premium@1x.png) no-repeat;
+    background: url(i/v4/icons_premium@1x.png) no-repeat;
     display: block;
     float: left;
     height: 22px;
@@ -8218,7 +8218,7 @@ nav ul {
 }
 
 .premium-form .premium-form .lock {
-    background: url(web/i/v4/icons_premium@1x.png) no-repeat;
+    background: url(i/v4/icons_premium@1x.png) no-repeat;
     display: block;
     height: 20px;
     overflow: hidden;
@@ -8300,7 +8300,7 @@ nav ul {
 }
 
 .premium-form .cvcexample {
-    background: url(web/i/v4/icons_premium@1x.png) 0 -80px no-repeat;
+    background: url(i/v4/icons_premium@1x.png) 0 -80px no-repeat;
     display: block;
     height: 22px;
     overflow: hidden;
@@ -8325,7 +8325,7 @@ nav ul {
 .premiumform-container .premium-processing {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    background: url(web/i/spinner_med.gif) top no-repeat;
+    background: url(i/spinner_med.gif) top no-repeat;
     background-size: 16px 16px;
     box-sizing: border-box;
     display: none;
@@ -8499,7 +8499,7 @@ nav ul {
 }
 
 .premium-tabledetail .check {
-    background: url(web/i/v4/premium_checkmark@1x.png) 50% no-repeat;
+    background: url(i/v4/premium_checkmark@1x.png) 50% no-repeat;
     display: block;
     height: 29px;
     margin: 7px auto 0;
@@ -8562,7 +8562,7 @@ nav ul {
 }
 
 .premium-offer .offer-ribbon:after, .premium-offer .offer-ribbon:before {
-    background: url(web/i/v4/premium_offerribbon@1x.png) 1px -120px no-repeat;
+    background: url(i/v4/premium_offerribbon@1x.png) 1px -120px no-repeat;
     content: " ";
     display: block;
     position: absolute;
@@ -8616,7 +8616,7 @@ nav ul {
 }
 
 .content-purchaseconfirm h2 {
-    background: url(web/i/v4/purchaseconfirm_heart@1x.png) no-repeat top;
+    background: url(i/v4/purchaseconfirm_heart@1x.png) no-repeat top;
     color: #2e2e2e;
     font-family: lobster, serif;
     font-size: 1.875em;
@@ -8817,22 +8817,22 @@ nav ul {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
     .page-premium .cc-examples li, .page-premium .premium-form .cvcexample, .page-premium .premium-form .lock, .page-premium .toggle-yrmth > .icon {
-        background-image: url(web/i/v4/icons_premium@2x.png);
+        background-image: url(i/v4/icons_premium@2x.png);
         background-size: 100px 700px
     }
 
     .content-purchaseconfirm h2 {
-        background-image: url(web/i/v4/purchaseconfirm_heart@2x.png);
+        background-image: url(i/v4/purchaseconfirm_heart@2x.png);
         background-size: 136px 137px
     }
 
     .premium-offer .offer-ribbon:after, .premium-offer .offer-ribbon:before {
-        background-image: url(web/i/v4/premium_offerribbon@2x.png);
+        background-image: url(i/v4/premium_offerribbon@2x.png);
         background-size: 15px 185px
     }
 
     .premium-tabledetail .check {
-        background-image: url(web/i/v4/premium_checkmark@2x.png);
+        background-image: url(i/v4/premium_checkmark@2x.png);
         background-size: 29px 29px
     }
 
@@ -9477,55 +9477,55 @@ nav ul {
 }
 
 .page-welcome .device_ios .hero {
-    background-image: url(web/i/v4/welcome/welcome-iossmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-iossmall@1x.jpg)
 }
 
 .page-welcome .device_iosbeta .hero {
-    background-image: url(web/i/v4/welcome/welcome-iosbetasmall@1x.png)
+    background-image: url(i/v4/welcome/welcome-iosbetasmall@1x.png)
 }
 
 .page-welcome .device_mac .hero {
-    background-image: url(web/i/v4/welcome/welcome-macsmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-macsmall@1x.jpg)
 }
 
 .page-welcome .device_android .hero {
-    background-image: url(web/i/v4/welcome/welcome-androidsmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-androidsmall@1x.jpg)
 }
 
 .page-welcome .device_kindle_fire .hero {
-    background-image: url(web/i/v4/welcome/welcome-kindle-firesmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-kindle-firesmall@1x.jpg)
 }
 
 .page-welcome .browser_firefox .hero {
-    background-image: url(web/i/v4/welcome/welcome-firefoxsmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-firefoxsmall@1x.jpg)
 }
 
 .page-welcome .browser_firefoxnew .hero {
-    background-image: url(web/i/v4/welcome/welcome-firefoxnewsmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-firefoxnewsmall@1x.jpg)
 }
 
 .page-welcome .browser_firefoxquantum .hero {
-    background-image: url(web/i/v4/welcome/welcome-firefoxquantumsmall@1x.png)
+    background-image: url(i/v4/welcome/welcome-firefoxquantumsmall@1x.png)
 }
 
 .page-welcome .browser_opera .hero {
-    background-image: url(web/i/v4/welcome/welcome-operasmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-operasmall@1x.jpg)
 }
 
 .page-welcome .browser_chrome .hero {
-    background-image: url(web/i/v4/welcome/welcome-chromesmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-chromesmall@1x.jpg)
 }
 
 .page-welcome .browser_edge .hero {
-    background-image: url(web/i/v4/welcome/welcome-edgesmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-edgesmall@1x.jpg)
 }
 
 .page-welcome .browser_safari .hero {
-    background-image: url(web/i/v4/welcome/welcome-safarismall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-safarismall@1x.jpg)
 }
 
 .page-welcome .bookmarklet .hero {
-    background-image: url(web/i/v4/welcome/welcome-bookmarkletsmall@1x.jpg)
+    background-image: url(i/v4/welcome/welcome-bookmarkletsmall@1x.jpg)
 }
 
 .content-welcome .description, .content-welcome .description h2 {
@@ -9588,7 +9588,7 @@ nav ul {
 
 .content-welcome .btn-install:before {
     content: " ";
-    background: url(web/i/spinner_med.gif) top no-repeat;
+    background: url(i/spinner_med.gif) top no-repeat;
     background-size: 16px 16px;
     box-sizing: border-box;
     display: none;
@@ -9609,107 +9609,107 @@ nav ul {
     }
 
     .page-welcome .device_ios .hero {
-        background-image: url(web/i/v4/welcome/welcome-iossmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-iossmall@2x.jpg)
     }
 
     .page-welcome .device_iosbeta .hero {
-        background-image: url(web/i/v4/welcome/welcome-iosbetasmall@2x.png)
+        background-image: url(i/v4/welcome/welcome-iosbetasmall@2x.png)
     }
 
     .page-welcome .device_mac .hero {
-        background-image: url(web/i/v4/welcome/welcome-macsmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-macsmall@2x.jpg)
     }
 
     .page-welcome .device_android .hero {
-        background-image: url(web/i/v4/welcome/welcome-androidsmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-androidsmall@2x.jpg)
     }
 
     .page-welcome .device_kindle_fire .hero {
-        background-image: url(web/i/v4/welcome/welcome-kindle-firesmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-kindle-firesmall@2x.jpg)
     }
 
     .page-welcome .browser_firefox .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxsmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefoxsmall@2x.jpg)
     }
 
     .page-welcome .browser_firefoxnew .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxnewsmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefoxnewsmall@2x.jpg)
     }
 
     .page-welcome .browser_firefoxquantum .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxquantumsmall@2x.png)
+        background-image: url(i/v4/welcome/welcome-firefoxquantumsmall@2x.png)
     }
 
     .page-welcome .browser_opera .hero {
-        background-image: url(web/i/v4/welcome/welcome-operasmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-operasmall@2x.jpg)
     }
 
     .page-welcome .browser_chrome .hero {
-        background-image: url(web/i/v4/welcome/welcome-chromesmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-chromesmall@2x.jpg)
     }
 
     .page-welcome .browser_edge .hero {
-        background-image: url(web/i/v4/welcome/welcome-edgesmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-edgesmall@2x.jpg)
     }
 
     .page-welcome .browser_safari .hero {
-        background-image: url(web/i/v4/welcome/welcome-safarismall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-safarismall@2x.jpg)
     }
 
     .page-welcome .bookmarklet .hero {
-        background-image: url(web/i/v4/welcome/welcome-bookmarkletsmall@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-bookmarkletsmall@2x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_ios .hero {
-        background-image: url(web/i/v4/welcome/welcome-iossmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-iossmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_iosbeta .hero {
-        background-image: url(web/i/v4/welcome/welcome-iosbetasmall@1x.png)
+        background-image: url(i/v4/welcome/welcome-iosbetasmall@1x.png)
     }
 
     .lt-ie9 .page-welcome .device_mac .hero {
-        background-image: url(web/i/v4/welcome/welcome-macsmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-macsmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_android .hero {
-        background-image: url(web/i/v4/welcome/welcome-androidsmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-androidsmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_kindle_fire .hero {
-        background-image: url(web/i/v4/welcome/welcome-kindle-firesmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-kindle-firesmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_firefox .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxsmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefoxsmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_firefoxnew .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxnewsmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefoxnewsmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_firefoxquantum .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxquantumsmall@1x.png)
+        background-image: url(i/v4/welcome/welcome-firefoxquantumsmall@1x.png)
     }
 
     .lt-ie9 .page-welcome .browser_opera .hero {
-        background-image: url(web/i/v4/welcome/welcome-operasmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-operasmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_chrome .hero {
-        background-image: url(web/i/v4/welcome/welcome-chromesmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-chromesmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_edge .hero {
-        background-image: url(web/i/v4/welcome/welcome-edgesmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-edgesmall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_safari .hero {
-        background-image: url(web/i/v4/welcome/welcome-safarismall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-safarismall@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .bookmarklet .hero {
-        background-image: url(web/i/v4/welcome/welcome-bookmarkletsmall@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-bookmarkletsmall@1x.jpg)
     }
 }
 
@@ -9778,55 +9778,55 @@ nav ul {
     }
 
     .page-welcome .device_ios .hero {
-        background-image: url(web/i/v4/welcome/welcome-ios@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-ios@1x.jpg)
     }
 
     .page-welcome .device_iosbeta .hero {
-        background-image: url(web/i/v4/welcome/welcome-iosbeta@1x.png)
+        background-image: url(i/v4/welcome/welcome-iosbeta@1x.png)
     }
 
     .page-welcome .device_mac .hero {
-        background-image: url(web/i/v4/welcome/welcome-mac@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-mac@1x.jpg)
     }
 
     .page-welcome .device_android .hero {
-        background-image: url(web/i/v4/welcome/welcome-android@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-android@1x.jpg)
     }
 
     .page-welcome .device_kindle_fire .hero {
-        background-image: url(web/i/v4/welcome/welcome-kindle-fire@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-kindle-fire@1x.jpg)
     }
 
     .page-welcome .browser_firefox .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefox@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefox@1x.jpg)
     }
 
     .page-welcome .browser_firefoxnew .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxnew@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefoxnew@1x.jpg)
     }
 
     .page-welcome .browser_firefoxquantum .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxquantum@1x.png)
+        background-image: url(i/v4/welcome/welcome-firefoxquantum@1x.png)
     }
 
     .page-welcome .browser_opera .hero {
-        background-image: url(web/i/v4/welcome/welcome-opera@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-opera@1x.jpg)
     }
 
     .page-welcome .browser_chrome .hero {
-        background-image: url(web/i/v4/welcome/welcome-chrome@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-chrome@1x.jpg)
     }
 
     .page-welcome .browser_edge .hero {
-        background-image: url(web/i/v4/welcome/welcome-edge@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-edge@1x.jpg)
     }
 
     .page-welcome .browser_safari .hero {
-        background-image: url(web/i/v4/welcome/welcome-safari@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-safari@1x.jpg)
     }
 
     .page-welcome .bookmarklet .hero {
-        background-image: url(web/i/v4/welcome/welcome-bookmarklet@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-bookmarklet@1x.jpg)
     }
 }
 
@@ -9840,99 +9840,99 @@ nav ul {
     }
 
     .page-welcome .device_ios .hero {
-        background-image: url(web/i/v4/welcome/welcome-ios@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-ios@2x.jpg)
     }
 
     .page-welcome .device_iosbeta .hero {
-        background-image: url(web/i/v4/welcome/welcome-iosbeta@2x.png)
+        background-image: url(i/v4/welcome/welcome-iosbeta@2x.png)
     }
 
     .page-welcome .device_mac .hero {
-        background-image: url(web/i/v4/welcome/welcome-mac@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-mac@2x.jpg)
     }
 
     .page-welcome .device_android .hero {
-        background-image: url(web/i/v4/welcome/welcome-android@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-android@2x.jpg)
     }
 
     .page-welcome .device_kindle_fire .hero {
-        background-image: url(web/i/v4/welcome/welcome-kindle-fire@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-kindle-fire@2x.jpg)
     }
 
     .page-welcome .browser_firefox .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefox@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefox@2x.jpg)
     }
 
     .page-welcome .browser_firefoxnew .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxnew@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefoxnew@2x.jpg)
     }
 
     .page-welcome .browser_firefoxquantum .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxquantum@2x.png)
+        background-image: url(i/v4/welcome/welcome-firefoxquantum@2x.png)
     }
 
     .page-welcome .browser_opera .hero {
-        background-image: url(web/i/v4/welcome/welcome-opera@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-opera@2x.jpg)
     }
 
     .page-welcome .browser_chrome .hero {
-        background-image: url(web/i/v4/welcome/welcome-chrome@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-chrome@2x.jpg)
     }
 
     .page-welcome .browser_safari .hero {
-        background-image: url(web/i/v4/welcome/welcome-safari@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-safari@2x.jpg)
     }
 
     .page-welcome .bookmarklet .hero {
-        background-image: url(web/i/v4/welcome/welcome-bookmarklet@2x.jpg)
+        background-image: url(i/v4/welcome/welcome-bookmarklet@2x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_ios .hero {
-        background-image: url(web/i/v4/welcome/welcome-ios@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-ios@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_mac .hero {
-        background-image: url(web/i/v4/welcome/welcome-mac@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-mac@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_android .hero {
-        background-image: url(web/i/v4/welcome/welcome-android@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-android@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .device_kindle_fire .hero {
-        background-image: url(web/i/v4/welcome/welcome-kindle-fire@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-kindle-fire@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_firefox .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefox@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefox@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_firefoxnew .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxnew@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-firefoxnew@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_firefoxquantum .hero {
-        background-image: url(web/i/v4/welcome/welcome-firefoxquantum@1x.png)
+        background-image: url(i/v4/welcome/welcome-firefoxquantum@1x.png)
     }
 
     .lt-ie9 .page-welcome .browser_opera .hero {
-        background-image: url(web/i/v4/welcome/welcome-opera@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-opera@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_chrome .hero {
-        background-image: url(web/i/v4/welcome/welcome-chrome@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-chrome@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_edge .hero {
-        background-image: url(web/i/v4/welcome/welcome-edge@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-edge@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .browser_safari .hero {
-        background-image: url(web/i/v4/welcome/welcome-safari@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-safari@1x.jpg)
     }
 
     .lt-ie9 .page-welcome .bookmarklet .hero {
-        background-image: url(web/i/v4/welcome/welcome-bookmarklet@1x.jpg)
+        background-image: url(i/v4/welcome/welcome-bookmarklet@1x.jpg)
     }
 }
 
