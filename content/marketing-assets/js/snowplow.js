@@ -12,10 +12,10 @@
     n.src=w;g.parentNode.insertBefore(n,g)}})(window,document,"script",SNOWPLOW_URL,"snowplow");
   const connectorUrl = isProduction
     ? 'd.getpocket.com'
-    : 'com-getpocket-prod1.mini.snplow.net'
+    : 'com-getpocket-prod1.mini.snplow.net';
   const appId = isProduction
     ? 'pocket-web-mktg'
-    : 'pocket-web-mktg-dev'
+    : 'pocket-web-mktg-dev';
   snowplow('newTracker', 'sp', connectorUrl, {
     appId,
     platform: 'web',
@@ -25,11 +25,11 @@
       webPage: true,
       performanceTiming: true
     }
-  })
+  });
   // hashedUserId may not exist, in this instance
   // don't include the hashed_user_id key
-  const hashedUserId = Mozilla.Cookies.getItem('a95b4b6')
-  const hashedSessionGuid = Mozilla.Cookies.getItem('d4a79ec')
+  const hashedUserId = Mozilla.Cookies.getItem('a95b4b6');
+  const hashedSessionGuid = Mozilla.Cookies.getItem('sess_guid');
   const data = hashedUserId
     ? {
       hashed_user_id: hashedUserId,
@@ -37,17 +37,17 @@
     }
     : {
       hashed_guid: hashedSessionGuid
-    }
+    };
   snowplow('addGlobalContexts', [{
     schema: `iglu:com.pocket/user/jsonschema/1-0-0`,
     data
-  }])
+  }]);
   snowplow(
     'enableActivityTracking',
     10, // heartbeat delay
     10 // heartbeat interval
-  )
-  snowplow('enableLinkClickTracking')
-  snowplow('enableFormTracking')
-  snowplow('trackPageView')
+  );
+  snowplow('enableLinkClickTracking');
+  snowplow('enableFormTracking');
+  snowplow('trackPageView');
 })();
