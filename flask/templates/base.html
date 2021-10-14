@@ -1,20 +1,39 @@
+{# This Source Code Form is subject to the terms of the Mozilla Public
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/. -#}
+
+{% set pocket_desc = "Pocket empowers people to keep their minds focused, stimulated, and nourished. We’re powered by a community of interesting people with curious minds." %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  {% block shared_meta %}
+    <title>{% block page_title %}{% endblock page_title %} | Pocket</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="{% block page_desc%}pocket_desc{% endblock %}"/>
+    <meta name="x-pocket-override-excerpt" content="{% block pocket_override %}{{ self.page_desc()}}{% endblock %}"/>
+    <meta itemprop="name" content="{{ self.page_title() }} | Pocket" />
+    <meta itemprop="description" content="{{ self.page_desc()}}"/>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="{% block page_twitter_url %}{% endblock %}" />
+    <meta name="twitter:title" content="{{ self.page_title() }} | Pocket" />
+    <meta name="twitter:description" content="{% block twitter_desc %}{% endblock %}"
     />
+    <meta name="twitter:site" content="@pocket" />
+    <meta property="fb:app_id" content="131450656879143" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{% block page_og_url %}{% endblock %}" />
+    <meta property="og:title" content="{{ self.page_title() }} | Pocket" />
+    <meta property="og:description" content="{{ self.page_desc()}}"/>
+    <meta property="og:site_name" content="Pocket" />
+    <meta name="next-head-count" content="6" />
+  {% endblock shared_meta%}
 
-    <link rel="stylesheet" href="./static/css/styles.css" />
-
-    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
   </head>
   <body>
-    <nav>
-      <a href="/about">About</a>
-    </nav>
+    {% include './includes/nav.html' %}
     <main class="container">{% block content %}{% endblock %}</main>
   </body>
 </html>
