@@ -1,0 +1,335 @@
+@import "../utils/variables";
+
+$color-white:#fff;
+$color-divider: #d9d9d9;
+$color-text-primary: #1a1a1a;
+$box-shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.08);
+
+$mq-md: 'min-width: 720px';
+
+$spacing075: 0.75em;
+$spacing100: 1em;
+
+$size025: 0.25rem;
+$size150: 1.5rem;
+$size300: 3rem;
+$size400: 4rem;
+
+.pocket-header {
+    width: 100%;
+    background: $color-white;
+    box-shadow: $box-shadow-sm;
+    border-bottom: 1px solid $color-divider;
+
+    .global-nav-container {
+        padding: 0 $spacing100;
+        height: $size400;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.global-nav-mobile-menu-btn {
+    display: block;
+    margin-left: calc($spacing075 * -1);
+    width: $size300;
+    height: $size300;
+    position: relative;
+    line-height: 110%;
+    border: none;
+    border-radius: $size025;
+    transition: all 0.15s ease-out;
+
+    &.inline {
+        background: none;
+        padding: 0;
+        color: $color-text-primary;
+        text-decoration: underline;
+    }
+
+    .hamburger-btn {
+        width: $size150;
+        height: $size150;
+        margin-bottom: -2px;
+        display: inline-block;
+        margin-top: -0.25em;
+        vertical-align: middle;
+    }
+
+    @media ($mq-md) {
+        display: none;
+    }
+}
+
+// $color-white100: #fff;
+// $color-cream100: #fffcf7;
+// $color-grey10: #1a1a1a;
+// $color-grey20: #333;
+// $color-grey25: #404040;
+// $color-grey30: #4d4d4d;
+// $color-grey35: #595959;
+// $color-grey40: #666;
+// $color-grey45: #737373;
+// $color-grey55: #8c8c8c;
+// $color-grey65: #a6a6a6;
+// $color-grey80: #ccc;
+// $color-grey85: #d9d9d9;
+// $color-grey95: #f2f2f2;
+// $color-sepia10: #191917;
+// $color-sepia20: #33312e;
+// $color-sepia25: #403e3a;
+// $color-sepia40: #66635c;
+// $color-sepia45: #736f68;
+// $color-sepia55: #8c877e;
+// $color-sepia65: #a6a095;
+// $color-sepia80: #ccc5b8;
+// $color-sepia90: #e5decf;
+// $color-sepia96: #f5eddd;
+// $color-sepia100: #fff7e6;
+// $color-teal25: #00403c;
+// $color-teal30: #004d48;
+// $color-teal45: #00736c;
+// $color-teal50: #008078;
+// $color-teal60: #009990;
+// $color-teal65: #00a69c;
+// $color-teal70: #00b2a8;
+// $color-teal75: #00bfb4;
+// $color-teal80: #00ccc0;
+// $color-teal85: #00d9cc;
+// $color-teal100: #e8f7f6;
+// $color-tealLightestFill: #e0f0ef;
+// $color-tealLightestFillSepia: #d8decf;
+// $color-tealLightestFillDark: #274f4c;
+// $color-coralDarker: #6c000e;
+// $color-coralDark: #901424;
+// $color-coral: #ef4056;
+// $color-coralLight: #f9bfd1;
+// $color-coralLightest: #fdf2f5;
+// $color-amberDarker: #b24000;
+// $color-amberDark: #e55300;
+// $color-amber: #fcb643;
+// $color-amberLight: #ffd25e;
+// $color-amberLightest: #fffbe3;
+// $color-mintDarker: #0b6639;
+// $color-mintDark: #29a668;
+// $color-mint: #00cb77;
+// $color-mintLight: #82ecb7;
+// $color-mintLightest: #c6ffe3;
+// $color-lapisDarker: #00256d;
+// $color-lapisDark: #1649ac;
+// $color-lapis: #3668ff;
+// $color-lapisLight: #95d2ff;
+// $color-lapisLightest: #dceaff;
+// $color-apricotDarker: #9f2600;
+// $color-apricotDark: #d23807;
+// $color-apricot: #f67d6d;
+// $color-apricotLight: #feb69f;
+// $color-apricotLightest: #fdf0ec;
+// $color-irisDarker: #802ac3;
+// $color-irisDark: #9971ef;
+// $color-iris: #c4a5f7;
+// $color-irisLight: #dab5ff;
+// $color-irisLightest: #f2deff;
+// $color-brandPocket: #ef4056;
+// $color-brandFacebook: #3b5998;
+// $color-brandTwitter: #00aced;
+// $color-brandReddit: #ff4500;
+// $color-brandLinkedin: #007bb6;
+// $fontSerif: "Blanco OSF", Garamond, Times, Serif;
+// $fontSerifAlt: "Doyle", Garamond, Times, Serif;
+// $fontSansSerif: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+// $fontSizeRootSmall: 80%;
+// $fontSizeRootMedium: 87.5%;
+// $fontSizeRoot: 100%;
+// $fontSize065: 0.625rem;
+// $fontSize075: 0.75rem;
+// $fontSize085: 0.875rem;
+// $fontSize100: 1rem;
+// $fontSize125: 1.1875rem;
+// $fontSize150: 1.4375rem;
+// $fontSize175: 1.75rem;
+// $fontSize200: 2.0625rem;
+// $fontSize250: 2.5rem;
+// $fontSize300: 3rem;
+// $spacing025: 0.25rem;
+// $spacing050: 0.5rem;
+// $spacing075: 0.75rem;
+// $spacing100: 1rem;
+// $spacing150: 1.5rem;
+// $spacing250: 2.5rem;
+// $spacing350: 3.5rem;
+// $spacing400: 4rem;
+// $spacing650: 6.5rem;
+// $size025: 0.25rem;
+// $size050: 0.5rem;
+// $size075: 0.75rem;
+// $size100: 1rem;
+// $size125: 1.25rem;
+// $size150: 1.5rem;
+// $size200: 2rem;
+// $size250: 2.5rem;
+// $size300: 3rem;
+// $size350: 3.5rem;
+// $size400: 4rem;
+// $size500: 5rem;
+// $zIndexHeader: 1;
+// $zIndexTooltip: 10;
+// $zIndexModalShade: 20;
+// $zIndexModal: 21;
+// $zIndexColorModePicker: 30;
+// $borderRadius: 4px;
+// $raisedCanvas: 0 2px 12px rgba(0, 0, 0, 0.08);
+// $easingAccelerate: cubic-bezier(0.4, 0, 1, 1);
+// $easingDecelerate: cubic-bezier(0, 0, 0.2, 1);
+// $easingStandard: cubic-bezier(0.4, 0, 0.2, 1);
+// $uiControlsDurationEnterMS: 100ms;
+// $uiControlsDurationExitMS: 50ms;
+// $dialogsDurationEnterMS: 150ms;
+// $dialogsDurationExitMS: 75ms;
+// $navDrawerDurationEnterMS: 250ms;
+// $navDrawerDurationExitMS: 200ms;
+
+// .pocket-header {
+//     width: 100%;
+
+//     .pocket-logo {
+//         display: inline-block;
+//         position: relative;
+//         margin-right: 6rem;
+//         margin-left: calc($spacing075 * -1);
+//         padding: $spacing050 $spacing050;
+//         line-height: 1;
+
+//         &:focus {
+//             outline: none;
+
+//             &:before {
+//                 content: "";
+//                 display: block;
+//                 position: absolute;
+//                 top: -2px;
+//                 left: -2px;
+//                 bottom: -2px;
+//                 right: -2px;
+//                 border: 2px solid brown;
+//                 border-radius: 4px;
+//             }
+//         }
+//         &:hover,
+//         &:active {
+//             &::before {
+//                 display: none;
+//             }
+//         }
+//     }
+//     .logo-mark {
+//         display: none;
+//     }
+
+//     .global-nav-container {
+//         height: $size400;
+//         padding-bottom: 0;
+//         padding-top: 0;
+//         box-sizing: content-box;
+//         margin: 0 auto;
+//         max-width: 1128px;
+//         padding: $spacing250;
+//     }
+
+//     @media (max-width: 839px) {
+//         .pocket-logo {
+//             margin-right: $spacing350;
+
+//             &:hover {
+//                 cursor: pointer;
+//             }
+//         }
+//     }
+
+//     @media (max-width: 719px) {
+//         .global-nav-container {
+//             padding: $spacing250 $spacing150
+//         }
+//         .pocket-logo {
+//             margin-right: 0;
+//         }
+
+//         &.logged-in {
+//             .logo {
+//                 display: none;
+//             }
+
+//             .logo-mark {
+//                 display: block;
+//             }
+//         }
+
+//         .links {
+//             display: none;
+//         }
+//     }
+
+//     @media (max-width: 599px) {
+//         .global-nav-container {
+//             padding: $spacing150 $spacing100
+//         }
+//     }
+// }
+
+// .global-nav {
+//     display: flex;
+//     align-items: center;
+//     height: center;
+
+//     .hamburger-icon {
+//         display: none;
+
+//         @media (max-width: 719px) {
+//             display: block;
+//             margin-left: calc($spacing075 * -1);
+//         }
+//     }
+// }
+
+// .global-nav-mobile-button {
+//     display: inline-block;
+//     position: relative;
+//     font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Sans-Serif;
+//     font-size: 1rem;
+//     line-height: 110%;
+//     border: none;
+//     border-radius: 0.25rem;
+//     padding: 0.75rem;
+//     transition: all 0.15s ease-out;
+//     text-decoration: none;
+//     cursor: pointer;
+
+//     &.disabled {
+//         pointer-events: none;
+//         cursor: default;
+//         opacity: 0.5;
+//     }
+
+//     &:focus {
+//         outline: none;
+
+//         &:before {
+//             content: "";
+//             position: absolute;
+//             border: 2px solid brown;
+//             top: -4px;
+//             bottom: -4px;
+//             left: -4px;
+//             right: -4px;
+//             border-radius: 0.5rem;
+//         }
+//     }
+
+//     &:hover {
+//         text-decoration: none;
+//     }
+
+//     &:active:before, &:hover:before {
+//         display: none;
+//     }
+// }

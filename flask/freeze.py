@@ -5,7 +5,7 @@ freezer = Freezer(app)
 
 app.config["FREEZER_DESTINATION_IGNORE"] = ["*.css", "*.js", "static/"]
 app.config["FREEZER_DESTINATION"] = "./build"
-app.config["FREEZER_STATIC_IGNORE"] = ["*.scss", "*.js", "static/"]
+app.config["FREEZER_STATIC_IGNORE"] = ["*.scss", "static/"]
 app.config["FREEZER_DEFAULT_MIMETYPE"] = "text/html"
 
 

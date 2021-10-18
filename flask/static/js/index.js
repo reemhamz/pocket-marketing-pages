@@ -1,1 +1,1 @@
-const thing = "string";
+console.log("ok");

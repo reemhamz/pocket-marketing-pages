@@ -7,12 +7,12 @@ const isDevelopment = process.env.NODE_ENV === "development";
 
 const cssConfig = {
   entry: {
-    styles: "./static/css/styles.scss",
+    styles: "./static/scss/styles.scss",
   },
   output: {
     // clean: true,
     filename: "temp/[name].js",
-    path: path.resolve(__dirname, "build/static/"),
+    path: path.resolve(__dirname, "static/"),
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin({})],
@@ -53,8 +53,8 @@ const jsConfig = {
     index: "./static/js/index.js",
   },
   output: {
-    filename: "js/[name].js",
-    path: path.resolve(__dirname, "build/static/"),
+    filename: "js/[name].bundle.js",
+    path: path.resolve(__dirname, "static/"),
   },
   module: {
     rules: [
