@@ -276,5 +276,23 @@ $fontSize100: 1rem;
     }
 }
 
+.signup-icon {
+    display: inline-block;
+    line-height: 0;
+    vertical-align: middle;
+    margin-top: 0;
+    height: $size150;
+
+    svg {
+        height: 100%;
+    }
+    
+    @media ($mq-md) {
+        margin-top: -0.25em;
+        display: none;
+    }
+
+}
+
 
 

@@ -231,6 +231,23 @@
   }
 }
 
+.signup-icon {
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  margin-top: 0;
+  height: 1.5rem;
+}
+.signup-icon svg {
+  height: 100%;
+}
+@media (min-width: 720px) {
+  .signup-icon {
+    margin-top: -0.25em;
+    display: none;
+  }
+}
+
 *,
 :after,
 :before {
