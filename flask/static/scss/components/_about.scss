@@ -1,0 +1,39 @@
+@import '../utils/variables';
+
+.intro-wrapper {
+    width: 100%;
+    background-color: #95d5d2;
+    position: relative;
+    color: $color-text-primary;
+}
+
+.about-section {
+    font-family: $fontSans;
+    &.intro {
+        max-width: 1128px;
+        margin: 0 auto;
+        padding: $size250 $size100 118vw;
+        position: relative;
+
+        h1 {
+            font-family: $fontSansAlt;
+            font-weight: 500;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            background: url(../img/people-enjoying-content-md.svg) no-repeat 100% 0 / contain;
+            width: 200vw;
+            height: 134vw;
+            top: unset;
+            bottom: 0.9rem;
+            right: -38vw;
+
+        }
+
+        @media ($mq-md) {
+            padding: 8rem $size250 22rem;
+        }
+    }
+}

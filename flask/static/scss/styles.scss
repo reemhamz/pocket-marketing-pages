@@ -1,8 +1,13 @@
 @import 'utils/variables';
+@import 'utils/fonts';
+@import 'utils/text';
+
 @import 'components/nav';
 @import 'components/add';
 
 // clearfix - will be moved
+@import 'components/about';
+
 *,
 :after,
 :before {
@@ -43,4 +48,17 @@ body {
 
   button:not(:disabled) {
       cursor: pointer;
+  }
+
+  @font-face {
+    font-family: Doyle;
+    font-weight: 400;
+    src: url(../fonts/Doyle-Regular.woff),
+      url(../fonts/Doyle-Regular.woff2);
+  }
+  @font-face {
+    font-family: Doyle;
+    font-weight: 500;
+    src: url(../fonts/Doyle-Medium.woff),
+      url(../fonts/Doyle-Medium.woff2);
   }
