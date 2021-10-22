@@ -248,6 +248,42 @@
   }
 }
 
+.intro-wrapper {
+  width: 100%;
+  background-color: #95d5d2;
+  position: relative;
+  color: #1a1a1a;
+}
+
+.about-section {
+  font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+.about-section.intro {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 118vw;
+  position: relative;
+}
+.about-section.intro h1 {
+  font-family: "Doyle", Garamond, Times, Serif;
+  font-weight: 500;
+}
+.about-section.intro:before {
+  content: "";
+  position: absolute;
+  background: url(../img/people-enjoying-content-md.svg) no-repeat 100% 0/contain;
+  width: 200vw;
+  height: 134vw;
+  top: unset;
+  bottom: 0.9rem;
+  right: -38vw;
+}
+@media (min-width: 720px) {
+  .about-section.intro {
+    padding: 8rem 2.5rem 22rem;
+  }
+}
+
 *,
 :after,
 :before {
@@ -287,4 +323,15 @@ body {
 
 button:not(:disabled) {
   cursor: pointer;
+}
+
+@font-face {
+  font-family: Doyle;
+  font-weight: 400;
+  src: url(../fonts/Doyle-Regular.woff), url(../fonts/Doyle-Regular.woff2);
+}
+@font-face {
+  font-family: Doyle;
+  font-weight: 500;
+  src: url(../fonts/Doyle-Medium.woff), url(../fonts/Doyle-Medium.woff2);
 }
