@@ -1,23 +1,33 @@
 {# This Source Code Form is subject to the terms of the Mozilla Public #
 License, v. 2.0. If a copy of the MPL was not distributed with this # file, You
-can obtain one at http://mozilla.org/MPL/2.0/. -#} {% extends 'base.html' %} {%
-block page_title %}Add and stuff{% endblock %} {% block content %}
+can obtain one at http://mozilla.org/MPL/2.0/. -#}
+
+{% extends 'base.html' %}
+{% block page_title %}Pocket: How to save{% endblock %} {% block content %}
+
+<div class="add-page">
+  <header>
+    <h2>Save to Pocket from Firefox</h2>
+    <div class="add-header">
+      <div class="add-header__image"><img src="../static/img/add-pocket-header.jpg" alt=""></div>
+      <div class="add-header__info">
+
+        <p>
+          Click the Pocket button in your Firefox toolbar to save articles, videos,
+          pages, and more.
+        </p>
+        <button>Learn How</button>
+        <p>
+          <a
+          href="https://help.getpocket.com/article/942-where-is-the-pocket-button-in-firefox"
+          >
+          Don't see the Pocket button?
+        </a>
+      </p>
+    </div>
+    </div>
+</header>
 <main>
-  <h2>Save to Pocket from Firefox</h2>
-  <div>
-    <p>
-      Click the Pocket button in your Firefox toolbar to save articles, videos,
-      pages, and more.
-    </p>
-    <button>Learn How</button>
-    <p>
-      <a
-        href="https://help.getpocket.com/article/942-where-is-the-pocket-button-in-firefox"
-      >
-        Don't see the Pocket button?
-      </a>
-    </p>
-  </div>
   <div>
     <h2>View from any Device</h2>
     <ul>
@@ -34,19 +44,20 @@ block page_title %}Add and stuff{% endblock %} {% block content %}
       <h3>Save via e-mail</h3>
       <p>email any link to your list by sending it to add@getpocket.com</p>
       <a
-        href="https://help.getpocket.com/article/1020-saving-to-pocket-via-email"
-        >Learn more</a
+      href="https://help.getpocket.com/article/1020-saving-to-pocket-via-email"
+      >Learn more</a
       >
     </div>
     <div>
-        <h3>Integrated in 1500+ Apps</h3>
-        <p>Save to Pocket using your favorite apps, such as:</p>
-        <ul>
-            <li>Twitter Apps</li>
-            <li>News Apps</li>
-            <li>More</li>
-        </ul>
+      <h3>Integrated in 1500+ Apps</h3>
+      <p>Save to Pocket using your favorite apps, such as:</p>
+      <ul>
+        <li>Twitter Apps</li>
+        <li>News Apps</li>
+        <li>More</li>
+      </ul>
     </div>
   </div>
 </main>
+</div>
 {% endblock %}
